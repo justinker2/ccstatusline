@@ -79,6 +79,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 
 ## Personal Notes
 
-> Forked for personal use. My main customization goal is tweaking the default token usage warning
-> threshold — I find 80% too aggressive and prefer warnings to kick in closer to 90%.
-> See `src/utils/renderer.ts` for where that threshold is applied.
+> Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
+> I primarily use this with the Sonnet 4.5 model without the 1M context flag, so the 200k/160k
+> usable token path is the one I care most about keeping correct.
