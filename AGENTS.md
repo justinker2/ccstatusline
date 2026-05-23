@@ -79,6 +79,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 
 ## Personal Notes
 
-> Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My main use case is displaying token usage and git branch in the status line.
-> I prefer running this via `bunx` rather than a global install — no setup required.
+> Forked from sirmalloc/ccstatusline for personal use and learning.
+> I primarily use this with iTerm2 + a Nerd Font, so powerline separators work out of the box.
+> If the TUI looks broken, make sure `TERM=xterm-256color` is set in your shell.
