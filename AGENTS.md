@@ -75,10 +75,10 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
   - Maps model IDs to their context window sizes based on [1m] suffix
   - Sonnet 4.5 WITH [1m] suffix: 1M tokens (800k usable at 80%) - requires long context beta access
   - Sonnet 4.5 WITHOUT [1m] suffix: 200k tokens (160k usable at 80%)
-  - Legacy mo
+  - Legacy models default to 200k tokens
 
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> I use this primarily with the bunx install method. If the status line stops rendering,
-> check that `CLAUDE_CONFIG_DIR` is set correctly — this tripped me up more than once.
+> I'm using this primarily with the bunx installation method. If you're setting this up fresh,
+> `bunx ccstatusline` in your Claude Code settings is the easiest path.
