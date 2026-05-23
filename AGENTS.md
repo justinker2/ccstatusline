@@ -79,6 +79,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 
 ## Personal Notes
 
-> Forked for personal use/learning. My main customizations are in `src/utils/config.ts`
-> where I've adjusted the default token warning threshold to trigger earlier (at 70%
-> instead of 80%) since I prefer more headroom before hitting context limits.
+> Forked from sirmalloc/ccstatusline for personal use and learning.
+> I primarily use this with the BUNX installation method — if something breaks,
+> check `~/.claude/settings.json` first to make sure the statusCommand is still set correctly.
