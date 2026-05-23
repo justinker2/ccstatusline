@@ -80,5 +80,5 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My config lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
-> I use this with iTerm2 + a Nerd Font, so powerline separators work out of the box.
+> My main use case is displaying token usage and git branch in the status line.
+> I prefer running this via `bunx` rather than a global install — no setup required.
