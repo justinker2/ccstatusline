@@ -80,5 +80,5 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> I primarily use this with the Sonnet 4.5 model without the 1M context flag, so the 200k/160k
-> usable token path is the one I care most about keeping correct.
+> My settings file lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
+> I primarily use this with the Sonnet 4.5 model without the 1M suffix (standard 200k context).
