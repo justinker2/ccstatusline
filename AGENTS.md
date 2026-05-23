@@ -79,6 +79,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 
 ## Personal Notes
 
-> Forked from sirmalloc/ccstatusline for personal use and learning.
-> I primarily use this with the BUNX installation method — if something breaks,
-> check `~/.claude/settings.json` first to make sure the statusCommand is still set correctly.
+> Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
+> My settings file lives at `~/.config/ccstatusline/settings.json` — back this up before running `bun run build`.
+> I primarily use this with the Sonnet 4.5 model without the 1M context flag, so the 200k/160k usable limit is the relevant one for my setup.
