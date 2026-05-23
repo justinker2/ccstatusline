@@ -80,5 +80,5 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My settings file lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
-> I primarily use this with the Sonnet 4.5 model without the 1M suffix (standard 200k context).
+> I use this primarily with the bunx install method. If the status line stops rendering,
+> check that `CLAUDE_CONFIG_DIR` is set correctly — this tripped me up more than once.
