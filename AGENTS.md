@@ -79,6 +79,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 
 ## Personal Notes
 
-> Forked from sirmalloc/ccstatusline for personal use and learning.
-> I primarily use this with iTerm2 + a Nerd Font, so powerline separators work out of the box.
-> If the TUI looks broken, make sure `TERM=xterm-256color` is set in your shell.
+> Forked from sirmalloc/ccstatusline for personal use. I primarily use this with the Sonnet 4.5 model
+> without the 1M context flag, so the 200k/160k usable limit is what matters for my setup.
+> If token usage warnings feel too aggressive, check the 80% threshold in model-context.ts.
