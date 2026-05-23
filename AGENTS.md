@@ -80,5 +80,5 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My settings file lives at `~/.config/ccstatusline/settings.json` — back this up before running `bun run build`.
-> I primarily use this with the Sonnet 4.5 model without the 1M context flag, so the 200k/160k usable limit is the relevant one for my setup.
+> My config lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
+> I primarily use this with iTerm2 + a Nerd Font, so powerline separators work out of the box.
